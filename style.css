@@ -75,8 +75,3 @@
 .servicesText:hover {
     border: 1px solid #008000;
 }
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-  }
