@@ -8,7 +8,7 @@
 }
     
 /* hero background image */
-.bgimage {
+/*.bgimage {
     height:100vh;
     background: url('images/AboutMePicture.jpg');
     background-size:cover;
