@@ -19,6 +19,12 @@ body{
     padding-top: 4rem;
 }
 
+.img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 /*===== NavBar =====*/
 .navbar {
     background-color: var(--first-color);
