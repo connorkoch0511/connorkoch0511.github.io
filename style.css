@@ -4,12 +4,21 @@
     padding-top: 4rem;
 }
 
-/* created variables for whole webpage*/
+/*===== Colors =====*/
 :root {
     --first-color: #FA8072;
     --white-color: #FAFAFF;
     --dark-color: #2A3B47;
     --text-color: #697477;
+}
+
+body{
+    color: var(--text-color);
+}
+
+/* change color of heading for each tab*/
+.text-center {
+    color: var(--dark-color);
 }
 
 /* sets background color of home page */
@@ -20,9 +29,11 @@
 .home_intro {
     /*padding-top: 10rem;*/
     font-size: 4.5rem;
+    color: var(--white-color);
 }
 .home_desc {
     font-size: 2rem;
+    color: var(--white-color);
 }
 .home_text {
     /*text-align: center;
