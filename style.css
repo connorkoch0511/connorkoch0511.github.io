@@ -12,14 +12,9 @@
     --text-color: #697477;
 }
 
-/* hero background image */
-.bgimage {
-    height:100vh;
-    background: url('images/AboutMePicture.jpg');
-    background-size:cover;
-    position:relative;
-    padding: 0;
-    margin: 0;
+/* sets background color of home page */
+.home_page {
+    background-color: var(--first-color);
 }
 /* text css above hero image*/
 .hero_title {
