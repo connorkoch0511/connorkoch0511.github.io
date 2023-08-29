@@ -16,9 +16,9 @@
     height: 100%;
 }
 
-/*.navbarDark {
-    background: #FA8072;
-}*/
+.navbar {
+    background-color: var(--first-color);
+}
 
 
 .social-icons {
