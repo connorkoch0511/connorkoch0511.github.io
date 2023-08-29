@@ -3,44 +3,22 @@
     margin-top: 4rem;
     padding-top: 4rem;
 }
-/*.section:last-of-type {
-    padding-bottom: 4rem;
-}*/
-    
-/* hero background image */
-/*.bgimage {
-    height:100vh;
-    background: url('images/AboutMePicture.jpg');
-    background-size:cover;
-    position:relative;
-    padding: 0;
-    margin: 0;
+
+.root {
+    --first-color: #FA8072;
+    --white-color: #FAFAFF;
+    --dark-color: #2A3B47;
+    --text-color: #697477;
 }
-/* text css above hero image*/
-/*.hero_title {
-    padding-top: 10rem;
-    font-size: 4.5rem;
-}
-.hero_desc {
-    font-size: 2rem;
-}
-.hero_text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-}*/
 
 .image_about {
     width: 100%;
     height: 100%;
 }
 
-.navbarDark {
+/*.navbarDark {
     background: #FA8072;
-}
+}*/
 
 
 .social-icons {
