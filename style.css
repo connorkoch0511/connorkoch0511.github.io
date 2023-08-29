@@ -44,7 +44,6 @@ body{
 
 /*===== Home =====*/
 .home_page {
-    
     background-color: var(--first-color);
 }
 .home_intro {
@@ -61,7 +60,7 @@ body{
 }
 
 .image_home {
-    position: absolute;
+    /*position: absolute;*/
     right: 10%;
     bottom: 0;
     width: 300px;
