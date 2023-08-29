@@ -41,6 +41,7 @@ body{
 /*===== Home =====*/
 .home_page {
     background-color: var(--first-color);
+    overflow: hidden;
 }
 .home_intro {
     /*padding-top: 10rem;*/
