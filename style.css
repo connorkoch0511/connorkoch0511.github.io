@@ -60,6 +60,13 @@ body{
     color: var(--white-color);
 }
 
+.image_home {
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+    width: 524px;
+}
+
 /*===== About =====*/
 .image_about {
     width: 100%;
