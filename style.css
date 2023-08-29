@@ -25,6 +25,10 @@ body{
     display: block;
 }
 
+.h1,h2,p {
+    margin: 0;
+}
+
 /*===== NavBar =====*/
 .navbar {
     background-color: var(--first-color);
@@ -41,7 +45,6 @@ body{
 /*===== Home =====*/
 .home_page {
     background-color: var(--first-color);
-    overflow: hidden;
 }
 .home_intro {
     /*padding-top: 10rem;*/
@@ -66,6 +69,7 @@ body{
     right: 10%;
     bottom: 0;
     width: 524px;
+    overflow: hidden;
 }
 
 /*===== About =====*/
