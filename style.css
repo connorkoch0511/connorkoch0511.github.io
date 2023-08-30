@@ -34,11 +34,11 @@ body{
     color: var(--text-color);
 }
 
-.row {
-    height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
+/*.row {
+    height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties 
     height: calc(var(--vh, 1vh) * 100);
     margin: 0 auto;
-}
+}*/
 
 /*===== NavBar =====*/
 .navbar {
@@ -55,6 +55,9 @@ body{
 
 /*===== Home =====*/
 .home_page {
+    height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
+    margin: 0 auto;
     background-color: var(--first-color);
 }
 .home_intro {
