@@ -104,7 +104,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--first-color);
 }
 
 @media screen and (max-width: 768px){
@@ -121,13 +120,22 @@ body{
     }
 }
 
-/*.navbar-brand {
-    color: var(--white-color);
+.nav-item {
+    margin-bottom: var(--mb-4);
 }
 
-.nav-item {
+.nav-link {
+    position: relative;
+    color: var(--dark-color);
+}
+
+.nav-link:hover {
+    color: var(--first-color);
+}
+
+navbar-brand {
     color: var(--white-color);
-}*/
+}
 
 /*===== Home =====*/
 .home_page {
