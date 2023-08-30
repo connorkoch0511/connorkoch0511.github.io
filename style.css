@@ -52,12 +52,6 @@ body{
     color: var(--text-color);
 }
 
-/*.row {
-    height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties 
-    height: calc(var(--vh, 1vh) * 100);
-    margin: 0 auto;
-}*/
-
 /*===== NavBar =====*/
 .navbar {
     background-color: var(--first-color);
@@ -149,9 +143,20 @@ body{
     color: #000000;
 }
 
+/*===== Media Queries =====*/
 @media screen and (min-width: 1024px){
     .col-lg-6{
         margin-left: auto;
         margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .section-title{
+        margin-bottom: 3rem;
+    }
+    .section-title::after{
+        width: 64px;
+        top: 3rem;
     }
 }
