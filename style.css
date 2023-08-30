@@ -137,6 +137,12 @@ navbar-brand {
     color: var(--white-color);
 }
 
+.navbar-toggler{
+    color: var(--white-color);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
 /*===== Home =====*/
 .home_page {
     height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
