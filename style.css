@@ -133,7 +133,7 @@ body{
     color: var(--first-color);
 }
 
-navbar-brand {
+.navbar-brand {
     color: var(--white-color);
 }
 
