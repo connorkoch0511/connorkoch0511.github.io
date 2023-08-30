@@ -29,9 +29,15 @@ body{
     margin: 0;
 }
 
-a{
+.a{
     text-decoration: none;
     color: var(--text-color);
+}
+
+.row {
+    height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
+    margin: 0 auto;
 }
 
 /*===== NavBar =====*/
@@ -50,9 +56,6 @@ a{
 /*===== Home =====*/
 .home_page {
     background-color: var(--first-color);
-    height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
-    height: calc(var(--vh, 1vh) * 100);
-    margin: 0 auto;
 }
 .home_intro {
     font-size: 4.5rem;
