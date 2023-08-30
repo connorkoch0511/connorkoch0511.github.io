@@ -240,4 +240,23 @@ body{
         width: 64px;
         top: 3rem;
     }
+    .navbar{
+        height: calc(var(--header-height) + 1rem);
+    }
+    .navbar-nav{
+        display: flex;
+    }
+    .nav-item{
+        margin-left: var(--mb-4);
+        margin-bottom: 0;
+    }
+    .navbar-toggler{
+        display: none;
+    }
+    .nav-link{
+        color: var(--white-color);
+    }
+    .nav-link:hover{
+        color: var(--white-color);
+    }
 }
