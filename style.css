@@ -50,6 +50,10 @@ a{
 /*===== Home =====*/
 .home_page {
     background-color: var(--first-color);
+    height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
+    margin: 0 auto;
+    max-width: 30%;
 }
 .home_intro {
     font-size: 4.5rem;
