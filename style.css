@@ -60,6 +60,26 @@ body{
     line-height: 1.6;
 }
 
+.img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.h1,h2,p {
+    margin: 0;
+}
+
+.a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+/*===== Page Titles =====*/
+.section{
+    padding: 3rem 0;
+}
+
 .section-title {
     position: relative;
     text-align: center;
@@ -76,21 +96,6 @@ body{
     margin: auto;
     top: 2rem;
     background-color: var(--first-color);
-}
-
-.img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-
-.h1,h2,p {
-    margin: 0;
-}
-
-.a{
-    text-decoration: none;
-    color: var(--text-color);
 }
 
 /*===== NavBar =====*/
