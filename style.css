@@ -100,16 +100,34 @@ body{
 
 /*===== NavBar =====*/
 .navbar {
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: var(--first-color);
 }
 
-.navbar-brand {
+@media screen and (max-width: 768px){
+    .nav__menu{
+        position: fixed;
+        top: var(--header-height);
+        right: -100%;
+        width: 80%;
+        height: 100%;
+        padding: 2rem;
+        background-color: rgba(255,255,255,.3);
+        transition: .5s;
+        backdrop-filter: blur(10px);
+    }
+}
+
+/*.navbar-brand {
     color: var(--white-color);
 }
 
 .nav-item {
     color: var(--white-color);
-}
+}*/
 
 /*===== Home =====*/
 .home_page {
