@@ -286,7 +286,7 @@ body{
     .nav-link {
         color: var(--white-color);
     }
-    .nav-link:active{
+    .nav-link.active{
         color: var(--white-color);
     }
     .nav-link:hover{
