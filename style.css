@@ -176,6 +176,7 @@ body{
     height: calc(var(--vh, 1vh) * 100);
     margin: 0 auto;
     background-color: var(--first-color);
+    row-gap: 5rem;
 }
 .home_intro {
     font-size: 4.5rem;
@@ -187,21 +188,23 @@ body{
 }
 .home_text {
     align-self: flex-end;
+    font-size: var(--big-font-size);
     color: var(--white-color);
+    line-height: .8;
 }
 
-.home_scroll-link {
+/*.home_scroll-link {
     align-self: flex-end;
     writing-mode: vertical-lr;
     transform: rotate(-180deg);
     color: var(--white-color);
-}
+}*/
 
 .image_home {
     /*position: absolute;*/
-    right: 10%;
+    right: 0;
     bottom: 0;
-    width: 300px;
+    width: 295px;
     overflow: hidden;
 }
 
@@ -285,5 +288,14 @@ body{
     }
     .nav-link:hover{
         color: var(--white-color);
+    }
+    .home_page {
+        height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
+        background-color: var(--first-color);
+        row-gap: 0;
+    }
+    .image_home {
+        width: 524px;
+        right: 10%;
     }
 }
