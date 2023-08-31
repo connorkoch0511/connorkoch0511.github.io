@@ -166,7 +166,6 @@ body{
     width: 100%;
     height: .18rem;
     left: 0;
-    top: 2rem;
     background-color: var(--first-color);
 }
 
@@ -298,7 +297,6 @@ body{
         row-gap: 0;
     }
     .image_home {
-        width: 524px;
         right: 10%;
     }
 }
