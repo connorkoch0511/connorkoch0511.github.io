@@ -283,7 +283,10 @@ body{
     .navbar-toggler{
         display: none;
     }
-    .nav-link{
+    .nav-link {
+        color: var(--white-color);
+    }
+    .nav-link:active{
         color: var(--white-color);
     }
     .nav-link:hover{
