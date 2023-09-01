@@ -257,7 +257,7 @@ body{
 
 /*===== Media Queries =====*/
 @media screen and (min-width: 1024px){
-    .col-lg-6{
+    .home_page{
         margin-left: auto;
         margin-right: auto;
     }
