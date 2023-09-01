@@ -296,6 +296,9 @@ body{
     .nav-link:hover {
         color: var(--white-color);
     }
+    .a:hover {
+        color: var(--white-color);
+    }
     .a:visited {
         color: var(--white-color);
     }
