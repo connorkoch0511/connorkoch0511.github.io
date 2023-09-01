@@ -179,12 +179,16 @@ body{
     row-gap: 5rem;
 }
 .home_intro {
-    font-size: 4.5rem;
+    align-self: flex-end;
+    font-size: var(--big-font-size);
     color: var(--white-color);
+    line-height: .8;
 }
 .text_home {
+    align-self: flex-end;
     font-size: 2rem;
     color: var(--white-color);
+    line-height: .8;
 }
 .home_text {
     align-self: flex-end;
