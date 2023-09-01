@@ -293,7 +293,10 @@ body{
     .navbar-nav .nav-link.active{
         color: var(--white-color);
     }
-    .nav-link:hover{
+    .nav-link:hover {
+        color: var(--white-color);
+    }
+    .a:visited {
         color: var(--white-color);
     }
     .active::after{
