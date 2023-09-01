@@ -189,7 +189,7 @@ body{
     font-size: 2rem;
     color: var(--white-color);
     line-height: .8;
-    padding-top: 4rem;
+    padding-top: 1rem;
 }
 .home_text {
     align-self: flex-end;
