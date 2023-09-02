@@ -314,4 +314,10 @@ body{
     .image_home {
         right: 10%;
     }
+    .home-top-row {
+        padding-top: 115px;
+    }
+    .home-bottom-row {
+        padding-top: 41px;
+    }
 }
