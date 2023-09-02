@@ -183,6 +183,7 @@ body{
     font-size: 4.5rem;
     color: var(--white-color);
     line-height: .8;
+    vertical-align: middle;
 }
 .text_home {
     align-self: flex-end;
@@ -190,6 +191,7 @@ body{
     color: var(--white-color);
     line-height: .8;
     padding-top: 1rem;
+    vertical-align: middle;
 }
 .home_text {
     align-self: flex-end;
