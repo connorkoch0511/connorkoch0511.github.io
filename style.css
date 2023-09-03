@@ -230,6 +230,8 @@ body{
 }
 .about_image_column {
     align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 /*===== Skills =====*/
