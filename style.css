@@ -180,16 +180,17 @@ body{
 }
 .home_text {
     position: relative;
+    top: 5rem;
 }
 .home_text home_intro {
     position: absolute;
-    top: 75%;
+    top: 50%;
     width: 100%;
     transform: translateY(-50%);
 }
 .home_text text_home {
     position: absolute;
-    top: 75%;
+    top: 50%;
     width: 100%;
     transform: translateY(-50%);
 }
