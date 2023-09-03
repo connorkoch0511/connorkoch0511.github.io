@@ -103,10 +103,6 @@ body{
     background-color: var(--first-color);
 }
 
-.row {
-    padding-left: 0;
-}
-
 /*===== NavBar =====*/
 .navbar {
     height: var(--header-height);
@@ -225,6 +221,10 @@ body{
     bottom: 0;
     width: 295px;
     overflow: hidden;
+}
+
+.col-lg-1 row>*{
+    padding-left: 0;
 }
 
 /*===== About =====*/
