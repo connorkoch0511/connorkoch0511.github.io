@@ -155,10 +155,6 @@ body{
 }
 
 /*=== Show menu ===*/
-/*.show{
-    right: 0;
-}*/
-
 /*Active menu*/
 .active::after{
     position: absolute;
@@ -209,7 +205,6 @@ body{
 }
 
 .image_home {
-    /*position: absolute;*/
     right: 0;
     bottom: 0;
     width: 295px;
@@ -221,16 +216,23 @@ body{
 }
 
 /*===== About =====*/
+.about_page {
+    height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
+    margin: 0 auto;
+    row-gap: 5rem;
+}
 .image_about {
     width: 165px;
 }
 
-/*===== Portfolio =====*/
-.portfolio {
-    background-color: var(--white-color);
-}
-
 /*===== Services =====*/
+.services_page {
+    height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
+    margin: 0 auto;
+    row-gap: 5rem;
+}
 .servicesText.card {
     height: 280px;
     cursor: pointer;
@@ -248,6 +250,25 @@ body{
 }
 .servicesText:hover {
     border: 1px solid #008000;
+}
+
+/*===== Portfolio =====*/
+.portfolio_page {
+    height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
+    margin: 0 auto;
+    row-gap: 5rem;
+}
+.portfolio {
+    background-color: var(--white-color);
+}
+
+/*===== Contact =====*/
+.contact_page {
+    height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
+    margin: 0 auto;
+    row-gap: 5rem;
 }
 
 /*===== Social Icons =====*/
@@ -326,5 +347,21 @@ body{
     }
     .home-bottom-row {
         padding-top: 41px;
+    }
+    .about_page {
+        height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
+        row-gap: 0;
+    }
+    .services_page {
+        height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
+        row-gap: 0;
+    }
+    .portfolio_page {
+        height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
+        row-gap: 0;
+    }
+    .contact_page {
+        height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
+        row-gap: 0;
     }
 }
