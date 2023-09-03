@@ -225,6 +225,12 @@ body{
 .image_about {
     width: 165px;
 }
+.about_image_row {
+    align-items: center;
+}
+.about_image_column {
+    align-items: center;
+}
 
 /*===== Skills =====*/
 .skills_page {
