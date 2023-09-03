@@ -223,7 +223,7 @@ body{
     overflow: hidden;
 }
 
-.col-lg-1 row>*{
+.row>* {
     padding-left: 0;
 }
 
