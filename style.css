@@ -186,23 +186,14 @@ body{
     top: 50%;
     width: 100%;
     transform: translateY(-50%);
-    align-self: flex-end;
-    font-size: 4.5rem;
-    color: var(--white-color);
-    line-height: .8;
 }
 .home_text text_home {
     position: absolute;
     top: 50%;
     width: 100%;
     transform: translateY(-50%);
-    align-self: flex-end;
-    font-size: 2rem;
-    color: var(--white-color);
-    line-height: .8;
-    padding-top: 1rem;
 }
-/*.home_intro {
+.home_intro {
     align-self: flex-end;
     font-size: 4.5rem;
     color: var(--white-color);
@@ -214,7 +205,7 @@ body{
     color: var(--white-color);
     line-height: .8;
     padding-top: 1rem;
-}*/
+}
 
 /*.home_scroll-link {
     align-self: flex-end;
