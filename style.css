@@ -226,18 +226,18 @@ body{
     width: 165px;
 }
 
-/*===== Services =====*/
-.services_page {
+/*===== Skills =====*/
+.skills_page {
     height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
     height: calc(var(--vh, 1vh) * 100);
     margin: 0 auto;
     row-gap: 5rem;
 }
-.servicesText.card {
+.skillsText.card {
     height: 280px;
     cursor: pointer;
   }
-.servicesIcon {
+.skillsIcon {
     font-size: 36px;
     text-align: center;
     width: 100%;
@@ -245,10 +245,10 @@ body{
 .card-title {
     text-align: center;
 }
-.card:hover .servicesIcon {
+.card:hover .skillsIcon {
     color: #008000;
 }
-.servicesText:hover {
+.skillsText:hover {
     border: 1px solid #008000;
 }
 
@@ -352,7 +352,7 @@ body{
         height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
         row-gap: 0;
     }
-    .services_page {
+    .skills_page {
         height: 100vh; /* Use vh as a fallback for browsers that do not support Custom Properties */
         row-gap: 0;
     }
