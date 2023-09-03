@@ -208,13 +208,6 @@ body{
     padding-top: 1rem;
 }
 
-/*.home_scroll-link {
-    align-self: flex-end;
-    writing-mode: vertical-lr;
-    transform: rotate(-180deg);
-    color: var(--white-color);
-}*/
-
 .image_home {
     /*position: absolute;*/
     right: 0;
