@@ -183,13 +183,13 @@ body{
 }
 .home_text home_intro {
     position: absolute;
-    top: 50%;
+    top: 75%;
     width: 100%;
     transform: translateY(-50%);
 }
 .home_text text_home {
     position: absolute;
-    top: 50%;
+    top: 75%;
     width: 100%;
     transform: translateY(-50%);
 }
