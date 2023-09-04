@@ -247,7 +247,7 @@ body{
 }
 .skills-image {
     display: inline-block;
-    font-size: var(--small-font-size);
+    width: 50px;
     margin-right: var(--mb-2);
     margin-bottom: var(--mb-3);
     padding: 0.25rem 0.5rem;
