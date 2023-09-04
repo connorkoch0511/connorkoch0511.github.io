@@ -241,7 +241,18 @@ body{
     margin: 0 auto;
     row-gap: 5rem;
 }
-.skillsText.card {
+.skills-subtitle {
+    color: var(--first-color);
+    margin-bottom: var(--mb-3);
+}
+.skills-image {
+    display: inline-block;
+    font-size: var(--small-font-size);
+    margin-right: var(--mb-2);
+    margin-bottom: var(--mb-3);
+    padding: 0.25rem 0.5rem;
+}
+/*.skillsText.card {
     height: 280px;
     cursor: pointer;
   }
@@ -258,7 +269,7 @@ body{
 }
 .skillsText:hover {
     border: 1px solid #008000;
-}
+}*/
 
 /*===== Portfolio =====*/
 .portfolio_page {
