@@ -262,6 +262,11 @@ body{
     margin-right: var(--mb-2);
     padding: 0.25rem 0.5rem;
 }
+.skills-image-other {
+    display: inline-block;
+    width: 150px;
+    padding: 0.25rem 0.5rem;
+}
 .skills-row {
     display: inline-block;
 }
