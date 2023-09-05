@@ -259,6 +259,13 @@ body{
     margin-bottom: var(--mb-3);
     padding: 0.25rem 0.5rem;
 }
+.skills-image-db {
+    display: inline-block;
+    width: 100px;
+    margin-right: var(--mb-2);
+    margin-bottom: var(--mb-3);
+    padding: 0.25rem 0.5rem;
+}
 .skills-row {
     display: inline-block;
 }
