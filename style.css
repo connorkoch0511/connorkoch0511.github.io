@@ -291,6 +291,9 @@ body{
 .servicesText:hover {
     border: 1px solid var(--first-color);
 }
+.btn-success {
+    color: var(--first-color)
+}
 
 /*===== Contact =====*/
 .contact_page {
