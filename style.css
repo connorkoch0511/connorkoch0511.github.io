@@ -281,6 +281,16 @@ body{
 .portfolio {
     background-color: var(--white-color);
 }
+.card-title {
+    text-align: center;
+    color: var(--first-color);
+}
+.card:hover .servicesIcon {
+    color: var(--first-color);
+}
+.servicesText:hover {
+    border: 1px solid var(--first-color);
+}
 
 /*===== Contact =====*/
 .contact_page {
