@@ -292,7 +292,7 @@ body{
     border: 1px solid var(--first-color);
 }
 .btn-success {
-    color: var(--first-color)
+    --bs-btn-bg: var(--first-color)
 }
 
 /*===== Contact =====*/
