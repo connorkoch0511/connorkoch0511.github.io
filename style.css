@@ -288,11 +288,15 @@ body{
 .card:hover .servicesIcon {
     color: var(--first-color);
 }
+.card-img-top {
+    max-width: 100%;
+    height: auto;
+}
 .servicesText:hover {
     border: 1px solid var(--first-color);
 }
 .btn-success {
-    --bs-btn-bg: var(--first-color)
+    --bs-btn-bg: var(--first-color);
 }
 
 /*===== Contact =====*/
