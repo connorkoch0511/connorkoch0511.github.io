@@ -1,3 +1,4 @@
+/*===== CLICK NAVBAR SECTIONS ACTIVE LINK =====*/
 const navLinkEls = document.querySelectorAll('.nav-link');
 
 navLinkEls.forEach(navLinkEl => {
@@ -6,6 +7,27 @@ navLinkEls.forEach(navLinkEl => {
         navLinkEl.classList.add('active');
     });
 });
+
+/*===== SCROLL SECTIONS ACTIVE LINK =====*/
+const sections = document.querySelectorAll('section[id]')
+
+window.addEventListener('scroll', scrollActive)
+
+function scrollActive(){
+  const scrollY = window.pageYOffset
+
+  sections.forEach(current =>{
+      const sectionHeight = current.offsetHeight
+      const sectionTop = current.offsetTop - 50;
+      const sectionId = current.getAttribute('id')
+
+      if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
+          document.querySelector('.navbar-collapse a[href*=' + sectionId + ']').classList.add('active')
+      }else{
+          document.querySelector('.navbar-collapse a[href*=' + sectionId + ']').classList.remove('active')
+      }
+  })
+}
 
 // First we get the viewport height and we multiple it by 1% to get a value for a vh unit
 let vh = window.innerHeight * 0.01;
