@@ -360,6 +360,9 @@ body{
     .navbar-nav .nav-link.active{
         color: var(--white-color);
     }
+    .navbar-brand.active{
+        color: var(--white-color);
+    }
     .nav-link:hover {
         color: var(--white-color);
     }
