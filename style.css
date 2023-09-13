@@ -354,6 +354,9 @@ body{
     .nav-link {
         color: var(--white-color);
     }
+    .navbar-brand {
+        color: var(--white-color);
+    }
     .navbar-nav .nav-link.active{
         color: var(--white-color);
     }
