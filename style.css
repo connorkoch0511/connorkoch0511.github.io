@@ -360,7 +360,7 @@ body{
     .nav-link:hover {
         color: var(--white-color);
     }
-    .nav-link:hover {
+    .navbar-nav:hover {
         color: var(--white-color);
     }
     .a:hover {
