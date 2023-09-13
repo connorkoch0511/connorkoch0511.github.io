@@ -313,7 +313,7 @@ body{
 }
 .fa-linkedin:hover, 
 .fa-github:hover {
-    color: #fff;
+    color: var(--text-color);
 }
 .fab {
     color: #000000;
