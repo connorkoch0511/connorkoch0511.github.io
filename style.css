@@ -150,10 +150,14 @@ body{
     padding-top: .5rem;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     color: var(--white-color);
     font-size: 1.5rem;
     cursor: pointer;
+}
+
+.navbar-toggler-icon {
+    color: var(--white-color);
 }
 
 /*=== Show menu ===*/
