@@ -384,6 +384,12 @@ body{
         right: 10%;
         width: 295px;
     }
+    .home_intro {
+        font-size: 2rem;
+    }
+    .text_home {
+        font-size: 1rem;
+    }
     .home-top-row {
         padding-top: 115px;
     }
