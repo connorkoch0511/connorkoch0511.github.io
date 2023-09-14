@@ -88,6 +88,7 @@ body{
 .section-title {
     position: relative;
     text-align: center;
+    font-size: var(--h2-font-size);
     color: var(--dark-color);
 }
 
