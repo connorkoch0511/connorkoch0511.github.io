@@ -144,7 +144,7 @@ body{
     color: var(--first-color);
 }
 
-.navbar-brand {
+.navbar__brand {
     color: var(--white-color);
 }
 
