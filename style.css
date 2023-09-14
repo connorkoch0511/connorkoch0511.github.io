@@ -212,7 +212,7 @@ body{
 .image_home {
     right: 0;
     bottom: 0;
-    width: 295px;
+    width: 195px;
     overflow: hidden;
 }
 
@@ -382,6 +382,7 @@ body{
     }
     .image_home {
         right: 10%;
+        width: 295px;
     }
     .home-top-row {
         padding-top: 115px;
