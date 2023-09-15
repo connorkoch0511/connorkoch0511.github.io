@@ -156,7 +156,7 @@ body{
 }
 
 .navbar .navbar-toggler {
-    color: var(--white-color);
+    border-color: var(--white-color);
 }
 
 /*=== Show menu ===*/
