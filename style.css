@@ -356,6 +356,7 @@ body{
     .nav-item{
         margin-left: var(--mb-4);
         margin-bottom: 0;
+        color: var(--white-color);
     }
     .navbar-toggler{
         display: none;
