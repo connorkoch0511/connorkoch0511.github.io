@@ -134,6 +134,7 @@ body{
 
 .nav-item {
     margin-bottom: var(--mb-4);
+    color: var(--white-color);
 }
 
 .nav-link {
@@ -356,7 +357,6 @@ body{
     .nav-item{
         margin-left: var(--mb-4);
         margin-bottom: 0;
-        color: var(--white-color);
     }
     .navbar-toggler{
         display: none;
