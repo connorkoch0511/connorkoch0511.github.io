@@ -186,12 +186,12 @@ body{
     top: 5rem;
 }
 .home_intro {
-    font-size: 2rem;
+    font-size: 3rem;
     color: var(--white-color);
     line-height: .8;
 }
 .text_home {
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: var(--white-color);
     line-height: .8;
 }
@@ -205,6 +205,7 @@ body{
     align-items: center;
     justify-content: center;
     display: flex;
+    padding-top: 10rem;
 }
 
 .row>* {
