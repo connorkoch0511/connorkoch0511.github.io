@@ -242,7 +242,7 @@ body{
 }
 .skills-subtitle {
     color: var(--first-color);
-    padding-left: 2rem;
+    padding-left: 1rem;
 }
 .skills-image-small {
     display: inline-block;
