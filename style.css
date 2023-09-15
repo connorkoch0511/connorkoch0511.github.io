@@ -141,6 +141,9 @@ body{
     position: relative;
     color: var(--dark-color);
 }
+.navbar-nav .nav-link.active {
+    color: var(--white-color);
+}
 
 .nav-link:hover {
     color: var(--first-color);
