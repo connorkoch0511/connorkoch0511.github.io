@@ -184,30 +184,11 @@ body{
     position: relative;
     top: 5rem;
 }
-.home_text home_intro {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    transform: translateY(-50%);
-}
-.home_text text_home {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    transform: translateY(-50%);
-}
 .home_intro {
-    align-self: flex-end;
-    font-size: 4.5rem;
-    color: var(--white-color);
-    line-height: .8;
+    font-size: 2rem;
 }
 .text_home {
-    align-self: flex-end;
-    font-size: 2rem;
-    color: var(--white-color);
-    line-height: .8;
-    padding-top: 1rem;
+    font-size: 1rem;
 }
 
 .image_home {
@@ -385,11 +366,30 @@ body{
         right: 10%;
         width: 295px;
     }
+    .home_text home_intro {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        transform: translateY(-50%);
+    }
+    .home_text text_home {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        transform: translateY(-50%);
+    }
     .home_intro {
-        font-size: 2rem;
+        align-self: flex-end;
+        font-size: 4.5rem;
+        color: var(--white-color);
+        line-height: .8;
     }
     .text_home {
-        font-size: 1rem;
+        align-self: flex-end;
+        font-size: 2rem;
+        color: var(--white-color);
+        line-height: .8;
+        padding-top: 1rem;
     }
     .home-top-row {
         padding-top: 115px;
