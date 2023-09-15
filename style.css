@@ -145,7 +145,7 @@ body{
     color: var(--first-color);
 }
 
-.navbar__brand {
+.navbar-brand {
     color: var(--white-color);
     text-decoration: none;
     padding-top: .5rem;
