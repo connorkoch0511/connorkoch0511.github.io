@@ -179,6 +179,7 @@ body{
     margin: 0 auto;
     background-color: var(--first-color);
     row-gap: 5rem;
+    padding-left: 2rem;
 }
 .home_text {
     position: relative;
