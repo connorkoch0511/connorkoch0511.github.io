@@ -205,7 +205,8 @@ body{
     align-items: center;
     justify-content: center;
     display: flex;
-    padding-top: 10rem;
+    bottom: 5%;
+    position: absolute;
 }
 
 .row>* {
