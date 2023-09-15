@@ -199,6 +199,8 @@ body{
     bottom: 0;
     width: 195px;
     overflow: hidden;
+}
+.home_image {
     align-items: center;
     justify-content: center;
     display: flex;
