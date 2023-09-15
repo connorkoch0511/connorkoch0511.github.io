@@ -275,6 +275,8 @@ body{
     height: calc(var(--vh, 1vh) * 100);*/
     margin: 0 auto;
     row-gap: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 .portfolio {
     background-color: var(--white-color);
