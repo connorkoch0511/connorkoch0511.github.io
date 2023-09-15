@@ -152,12 +152,11 @@ body{
 }
 
 .navbar-toggler {
-    color: var(--white-color);
     font-size: 1.5rem;
     cursor: pointer;
 }
 
-.navbar-toggler .navbar-toggler-icon {
+.navbar .navbar-toggler {
     color: var(--white-color);
 }
 
