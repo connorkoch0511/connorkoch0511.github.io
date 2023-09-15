@@ -235,25 +235,25 @@ body{
 }
 .skills-image-small {
     display: inline-block;
-    width: 150px;
+    width: 75px;
     margin-right: -2rem;
     padding: 0.25rem 0.5rem;
 }
 .skills-image-big {
     display: inline-block;
-    width: 75px;
+    width: 37.5px;
     margin-right: var(--mb-2);
     padding: 0.25rem 0.5rem;
 }
 .skills-image-db {
     display: inline-block;
-    width: 100px;
+    width: 50px;
     margin-right: var(--mb-2);
     padding: 0.25rem 0.5rem;
 }
 .skills-image-other {
     display: inline-block;
-    width: 125px;
+    width: 62.5px;
     padding: 0.25rem 0.5rem;
 }
 .skills-row {
@@ -406,6 +406,29 @@ body{
     .skills_page {
         /*height: 100vh;  Use vh as a fallback for browsers that do not support Custom Properties */
         row-gap: 0;
+    }
+    .skills-image-small {
+        display: inline-block;
+        width: 150px;
+        margin-right: -2rem;
+        padding: 0.25rem 0.5rem;
+    }
+    .skills-image-big {
+        display: inline-block;
+        width: 75px;
+        margin-right: var(--mb-2);
+        padding: 0.25rem 0.5rem;
+    }
+    .skills-image-db {
+        display: inline-block;
+        width: 100px;
+        margin-right: var(--mb-2);
+        padding: 0.25rem 0.5rem;
+    }
+    .skills-image-other {
+        display: inline-block;
+        width: 125px;
+        padding: 0.25rem 0.5rem;
     }
     .portfolio_page {
         /*height: 100vh;  Use vh as a fallback for browsers that do not support Custom Properties */
