@@ -186,11 +186,14 @@ body{
 }
 .home_intro {
     font-size: 2rem;
+    color: var(--white-color);
+    line-height: .8;
 }
 .text_home {
     font-size: 1rem;
+    color: var(--white-color);
+    line-height: .8;
 }
-
 .image_home {
     right: 0;
     bottom: 0;
