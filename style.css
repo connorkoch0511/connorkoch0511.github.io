@@ -232,6 +232,7 @@ body{
 }
 .skills-subtitle {
     color: var(--first-color);
+    padding-left: 2rem;
 }
 .skills-image-small {
     display: inline-block;
