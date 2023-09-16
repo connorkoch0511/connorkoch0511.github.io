@@ -394,7 +394,6 @@ body{
     }
     .home_image {
         display: contents;
-        position: none;
     }
     .home_text home_intro {
         position: absolute;
