@@ -393,7 +393,7 @@ body{
         width: 295px;
     }
     .home_image {
-        display: none;
+        display: contents;
         position: none;
     }
     .home_text home_intro {
