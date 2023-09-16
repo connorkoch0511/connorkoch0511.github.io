@@ -392,6 +392,10 @@ body{
         right: 10%;
         width: 295px;
     }
+    .home_image {
+        display: none;
+        position: none;
+    }
     .home_text home_intro {
         position: absolute;
         top: 50%;
