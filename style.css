@@ -171,7 +171,7 @@ body{
 .active::after{
     position: absolute;
     content: "";
-    width: 22.5%;
+    width: 20%;
     height: .18rem;
     left: 0;
     top: 2rem;
