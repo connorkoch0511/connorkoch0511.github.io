@@ -163,6 +163,10 @@ body{
     border-color: var(--white-color);
 }
 
+.bg-dark {
+    background-color: var(--first-color);
+}
+
 /*=== Show menu ===*/
 .show{
     right: 0;
@@ -372,6 +376,9 @@ body{
     }
     .nav-link:hover {
         color: var(--white-color);
+    }
+    .bg-dark {
+        background-color: var(--first-color);
     }
     .a:hover {
         color: var(--white-color);
