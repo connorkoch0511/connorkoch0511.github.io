@@ -164,7 +164,7 @@ body{
 }
 
 .bg-dark {
-    background-color: var(--first-color);
+    background-color: var(--first-color)!important;
 }
 
 /*=== Show menu ===*/
@@ -378,7 +378,7 @@ body{
         color: var(--white-color);
     }
     .bg-dark {
-        background-color: var(--first-color);
+        background-color: var(--first-color)!important;
     }
     .a:hover {
         color: var(--white-color);
