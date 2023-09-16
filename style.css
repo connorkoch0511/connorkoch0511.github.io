@@ -134,19 +134,19 @@ body{
 
 .nav-item {
     margin-bottom: var(--mb-4);
-    color: var(--white-color);
+    color: var(--dark-color);
 }
 
 .nav-link {
     position: relative;
-    color: var(--white-color);
+    color: var(--dark-color);
 }
 .navbar-nav .nav-link.active {
-    color: var(--white-color);
+    color: var(--dark-color);
 }
 
 .nav-link:hover {
-    color: var(--white-color);
+    color: var(--dark-color);
 }
 
 .navbar-brand {
