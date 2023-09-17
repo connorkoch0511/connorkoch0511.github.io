@@ -79,9 +79,6 @@ body{
     text-decoration: none;
     color: var(--text-color);
 }
-.row>* {
-    padding-right: 0;
-}
 
 /*===== Page Titles =====*/
 .section{
@@ -219,10 +216,6 @@ body{
     display: flex;
     bottom: 5%;
     position: absolute;
-}
-
-.row>* {
-    padding-left: 0;
 }
 
 /*===== About =====*/
