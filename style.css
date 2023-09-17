@@ -312,6 +312,10 @@ body{
 .btn-success {
     --bs-btn-bg: var(--first-color);
 }
+.portfolio_project {
+    align-items: center;
+    justify-content: center;
+}
 
 /*===== Contact =====*/
 .contact_page {
