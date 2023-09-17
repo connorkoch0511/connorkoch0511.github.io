@@ -75,9 +75,12 @@ body{
     margin: 0;
 }
 
-.a{
+.a { 
     text-decoration: none;
     color: var(--text-color);
+}
+.row>* {
+    padding-right: 0;
 }
 
 /*===== Page Titles =====*/
@@ -311,10 +314,6 @@ body{
 }
 .btn-success {
     --bs-btn-bg: var(--first-color);
-}
-.portfolio_project {
-    align-items: center;
-    justify-content: center;
 }
 
 /*===== Contact =====*/
