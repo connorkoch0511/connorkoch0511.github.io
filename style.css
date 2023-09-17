@@ -465,7 +465,7 @@ body{
         padding: 0.25rem 0.5rem;
     }
     .portfolio_page {
-        /*height: 100vh;  Use vh as a fallback for browsers that do not support Custom Properties */
+        height: 100vh;  /*Use vh as a fallback for browsers that do not support Custom Properties */
         row-gap: 0;
     }
     .contact_page {
