@@ -38,6 +38,14 @@ func handler(ctx context.Context) (events.APIGatewayV2HTTPResponse, error) {
 			RepoUrl:     "https://github.com/connorkoch0511/RAWG-Steam-Game-Discovery-Hub",
 			CodeUrl:     "https://github.com/connorkoch0511/RAWG-Steam-Game-Discovery-Hub/tree/main/portfolio",
 		},
+		{
+			ID:          "marketsync",
+			Name:        "MarketSync",
+			Description: "E-commerce ETL pipeline that syncs orders from Amazon/Walmart/Target APIs into PostgreSQL, with reconciliation, Slack alerting, and scheduled jobs.",
+			Tags:        []string{"Python", "FastAPI", "PostgreSQL", "SQLAlchemy", "Docker", "Pandas", "APScheduler"},
+			RepoUrl:     "https://github.com/connorkoch0511/marketsync",
+			CodeUrl:     "https://github.com/connorkoch0511/marketsync",
+		},
 	}
 
 	body, _ := json.Marshal(projects)
