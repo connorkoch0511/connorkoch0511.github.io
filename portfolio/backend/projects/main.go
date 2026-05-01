@@ -46,6 +46,14 @@ func handler(ctx context.Context) (events.APIGatewayV2HTTPResponse, error) {
 			RepoUrl:     "https://github.com/connorkoch0511/marketsync",
 			CodeUrl:     "https://github.com/connorkoch0511/marketsync",
 		},
+		{
+			ID:          "flight-web-scraper",
+			Name:        "Kayak Flight Web Scraper",
+			Description: "Desktop app that automates Kayak flight searches, saves results to Excel, and emails a deal summary — built with a dark-mode PyQt6 GUI and Selenium.",
+			Tags:        []string{"Python", "Selenium", "PyQt6", "Pandas", "openpyxl", "SMTP"},
+			RepoUrl:     "https://github.com/connorkoch0511/Flight-Web-Scraper",
+			CodeUrl:     "https://github.com/connorkoch0511/Flight-Web-Scraper",
+		},
 	}
 
 	body, _ := json.Marshal(projects)
