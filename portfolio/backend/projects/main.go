@@ -59,7 +59,7 @@ func handler(ctx context.Context) (events.APIGatewayV2HTTPResponse, error) {
 			Name:        "Job Application Tracker",
 			Description: "AI-powered job tracker that scrapes remote listings daily, scores them against your resume using an LLM, and surfaces the roles most worth your time.",
 			Tags:        []string{"Next.js", "TypeScript", "Tailwind CSS", "Supabase", "PostgreSQL", "Groq", "Python", "GitHub Actions", "Playwright", "Vercel"},
-			LiveUrl:     "https://job-application-tracker-pearl.vercel.app",
+			LiveUrl:     "https://job-application-tracker-beige-xi.vercel.app",
 			RepoUrl:     "https://github.com/connorkoch0511/Job-Application-Tracker",
 			CodeUrl:     "https://github.com/connorkoch0511/Job-Application-Tracker",
 		},
