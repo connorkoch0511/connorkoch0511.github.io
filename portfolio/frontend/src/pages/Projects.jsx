@@ -12,7 +12,7 @@ const META = {
   },
   "rag-doc-qa": {
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase", "pgvector", "HuggingFace", "Groq", "Vercel AI SDK", "Playwright"],
-    liveUrl: "https://rag-doc-3hofto540-connorkoch0511s-projects.vercel.app",
+    liveUrl: "https://rag-doc-qa-five.vercel.app",
     repoUrl: "https://github.com/connorkoch0511/RAG-Doc-QA",
     codeUrl: "https://github.com/connorkoch0511/RAG-Doc-QA",
   },
