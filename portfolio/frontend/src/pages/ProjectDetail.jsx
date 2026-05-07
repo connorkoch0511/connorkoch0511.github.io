@@ -4,6 +4,12 @@ import { Link, useParams } from "react-router-dom";
 const API_BASE = "https://2h3azmze1h.execute-api.us-east-1.amazonaws.com/prod";
 
 const META = {
+  "hotfix": {
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Clerk", "Neon", "PostgreSQL", "Drizzle ORM", "Playwright", "Vercel"],
+    liveUrl: "https://hotfix-eta.vercel.app",
+    repoUrl: "https://github.com/connorkoch0511/HotFix",
+    codeUrl: "https://github.com/connorkoch0511/HotFix",
+  },
   "aws-portfolio": {
     tags: ["AWS", "Lambda", "API Gateway", "DynamoDB", "SES", "Terraform", "React", "Go"],
     liveUrl: "https://d2k3tmmmuxn4oo.cloudfront.net",

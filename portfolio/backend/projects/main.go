@@ -64,6 +64,15 @@ func handler(ctx context.Context) (events.APIGatewayV2HTTPResponse, error) {
 			CodeUrl:     "https://github.com/connorkoch0511/Job-Application-Tracker",
 		},
 		{
+			ID:          "hotfix",
+			Name:        "HotFix",
+			Description: "Full-stack IT helpdesk and ticketing system with role-based access control (end_user / technician / admin), immutable audit logging, threaded comments, and a live dashboard — built with Next.js App Router, Clerk auth, Neon PostgreSQL, and Drizzle ORM.",
+			Tags:        []string{"Next.js", "TypeScript", "Tailwind CSS", "Clerk", "Neon", "PostgreSQL", "Drizzle ORM", "Playwright", "Vercel"},
+			LiveUrl:     "https://hotfix-eta.vercel.app",
+			RepoUrl:     "https://github.com/connorkoch0511/HotFix",
+			CodeUrl:     "https://github.com/connorkoch0511/HotFix",
+		},
+		{
 			ID:          "rag-doc-qa",
 			Name:        "RAG Document Q&A",
 			Description: "Upload PDFs or text files and ask questions grounded in their content. Built from scratch with a full RAG pipeline — chunk, embed, retrieve, and generate — with streaming answers and source citations.",
