@@ -73,6 +73,15 @@ func handler(ctx context.Context) (events.APIGatewayV2HTTPResponse, error) {
 			CodeUrl:     "https://github.com/connorkoch0511/HotFix",
 		},
 		{
+			ID:          "trackcart",
+			Name:        "TrackCart",
+			Description: "Mock e-commerce store built to demonstrate end-to-end digital analytics — GTM container setup, GA4 Enhanced E-commerce event tracking, a type-safe dataLayer architecture, and a live analytics dashboard powered by the GA4 Reporting API.",
+			Tags:        []string{"Next.js", "TypeScript", "Tailwind CSS", "Google Tag Manager", "GA4", "Playwright", "Vercel"},
+			LiveUrl:     "https://trackcart.vercel.app",
+			RepoUrl:     "https://github.com/connorkoch0511/TrackCart",
+			CodeUrl:     "https://github.com/connorkoch0511/TrackCart",
+		},
+		{
 			ID:          "rag-doc-qa",
 			Name:        "RAG Document Q&A",
 			Description: "Upload PDFs or text files and ask questions grounded in their content. Built from scratch with a full RAG pipeline — chunk, embed, retrieve, and generate — with streaming answers and source citations.",
