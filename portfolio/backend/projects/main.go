@@ -90,6 +90,15 @@ func handler(ctx context.Context) (events.APIGatewayV2HTTPResponse, error) {
 			RepoUrl:     "https://github.com/connorkoch0511/RAG-Doc-QA",
 			CodeUrl:     "https://github.com/connorkoch0511/RAG-Doc-QA",
 		},
+		{
+			ID:          "flightbench",
+			Name:        "FlightBench",
+			Description: "Hardware-in-the-Loop (HIL) flight simulation and test harness written in C++17, modeled after real SIL/HIL aerospace environments. Runs 11 automated test cases — including sensor fault injection — against a simulated flight computer with PID altitude hold, and ships a live telemetry dashboard.",
+			Tags:        []string{"C++17", "CMake", "PID Control", "Sensor Noise Models", "Fault Injection", "Next.js", "Recharts", "Playwright", "Vercel", "GitHub Actions"},
+			LiveUrl:     "https://flightbench-dashboard.vercel.app",
+			RepoUrl:     "https://github.com/connorkoch0511/FlightBench",
+			CodeUrl:     "https://github.com/connorkoch0511/FlightBench",
+		},
 	}
 
 	body, _ := json.Marshal(projects)
