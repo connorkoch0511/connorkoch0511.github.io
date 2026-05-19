@@ -28,6 +28,12 @@ const META = {
     repoUrl: "https://github.com/connorkoch0511/FlightBench",
     codeUrl: "https://github.com/connorkoch0511/FlightBench",
   },
+  "squawkboard": {
+    tags: ["Go", "WebSocket", "Redis", "Next.js", "TypeScript", "Leaflet", "Tailwind CSS", "Playwright", "Render", "Vercel", "GitHub Actions"],
+    liveUrl: "https://squawk-board.vercel.app",
+    repoUrl: "https://github.com/connorkoch0511/SquawkBoard",
+    codeUrl: "https://github.com/connorkoch0511/SquawkBoard",
+  },
 };
 
 export default function Projects() {

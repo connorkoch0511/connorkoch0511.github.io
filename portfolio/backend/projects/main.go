@@ -91,6 +91,15 @@ func handler(ctx context.Context) (events.APIGatewayV2HTTPResponse, error) {
 			CodeUrl:     "https://github.com/connorkoch0511/RAG-Doc-QA",
 		},
 		{
+			ID:          "squawkboard",
+			Name:        "SquawkBoard",
+			Description: "Real-time flight tracking dashboard streaming 40 live flights over WebSocket — Go backend with Redis pub/sub, Next.js frontend with a Leaflet map, rotating plane icons, flight trails, and a searchable sidebar.",
+			Tags:        []string{"Go", "WebSocket", "Redis", "Next.js", "TypeScript", "Leaflet", "Tailwind CSS", "Playwright", "Render", "Vercel", "GitHub Actions"},
+			LiveUrl:     "https://squawk-board.vercel.app",
+			RepoUrl:     "https://github.com/connorkoch0511/SquawkBoard",
+			CodeUrl:     "https://github.com/connorkoch0511/SquawkBoard",
+		},
+		{
 			ID:          "flightbench",
 			Name:        "FlightBench",
 			Description: "Hardware-in-the-Loop (HIL) flight simulation and test harness written in C++17, modeled after real SIL/HIL aerospace environments. Runs 11 automated test cases — including sensor fault injection — against a simulated flight computer with PID altitude hold, and ships a live telemetry dashboard.",
