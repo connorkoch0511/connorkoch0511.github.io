@@ -34,6 +34,11 @@ const META = {
     repoUrl: "https://github.com/connorkoch0511/SquawkBoard",
     codeUrl: "https://github.com/connorkoch0511/SquawkBoard",
   },
+  "edgestat": {
+    tags: ["Rust", "Java", "Spring Boot", "R", "Shiny", "PostgreSQL", "Docker", "ESPN API", "plotly", "JSONB"],
+    repoUrl: "https://github.com/connorkoch0511/EdgeStat",
+    codeUrl: "https://github.com/connorkoch0511/EdgeStat",
+  },
 };
 
 export default function ProjectDetail() {
