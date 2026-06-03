@@ -108,6 +108,15 @@ func handler(ctx context.Context) (events.APIGatewayV2HTTPResponse, error) {
 			RepoUrl:     "https://github.com/connorkoch0511/FlightBench",
 			CodeUrl:     "https://github.com/connorkoch0511/FlightBench",
 		},
+		{
+			ID:          "edgestat",
+			Name:        "EdgeStat",
+			Description: "Real-time multi-sport analytics platform tracking live scores, win probability, and player stats across 12 ESPN leagues. A Rust ingestion service polls ESPN's public API every 30 seconds, a Java Spring Boot REST API serves the data, and an R Shiny dashboard delivers live scoreboards, animated win probability replay, and per-sport player leaderboards. Deployed free on Oracle Cloud Always Free.",
+			Tags:        []string{"Rust", "Java", "Spring Boot", "R", "Shiny", "PostgreSQL", "Docker", "Caddy", "Oracle Cloud"},
+			LiveUrl:     "https://edgestat.duckdns.org",
+			RepoUrl:     "https://github.com/connorkoch0511/EdgeStat",
+			CodeUrl:     "https://github.com/connorkoch0511/EdgeStat",
+		},
 	}
 
 	body, _ := json.Marshal(projects)

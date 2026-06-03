@@ -36,6 +36,7 @@ const META = {
   },
   "edgestat": {
     tags: ["Rust", "Java", "Spring Boot", "R", "Shiny", "PostgreSQL", "Docker", "ESPN API", "plotly", "JSONB"],
+    liveUrl: "https://edgestat.duckdns.org",
     repoUrl: "https://github.com/connorkoch0511/EdgeStat",
     codeUrl: "https://github.com/connorkoch0511/EdgeStat",
   },
