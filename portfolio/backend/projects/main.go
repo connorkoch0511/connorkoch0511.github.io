@@ -84,8 +84,8 @@ func handler(ctx context.Context) (events.APIGatewayV2HTTPResponse, error) {
 		{
 			ID:          "rag-doc-qa",
 			Name:        "RAG Document Q&A",
-			Description: "Upload PDFs or text files and ask questions grounded in their content. Built from scratch with a full RAG pipeline — chunk, embed, retrieve, and generate — with streaming answers and source citations.",
-			Tags:        []string{"Next.js", "TypeScript", "Tailwind CSS", "Supabase", "pgvector", "HuggingFace", "Groq", "Vercel AI SDK", "Playwright"},
+			Description: "Upload PDFs or text files and ask questions grounded in their content — a full RAG pipeline built from scratch (chunk, embed, retrieve, generate) with streaming answers and per-source citations. Backed by Neon pgvector for semantic search and Clerk auth, with no LangChain or LlamaIndex.",
+			Tags:        []string{"Next.js", "TypeScript", "Tailwind CSS", "Clerk", "Neon", "pgvector", "HuggingFace", "Groq", "Vercel AI SDK", "Playwright"},
 			LiveUrl:     "https://rag-doc-qa-five.vercel.app",
 			RepoUrl:     "https://github.com/connorkoch0511/RAG-Doc-QA",
 			CodeUrl:     "https://github.com/connorkoch0511/RAG-Doc-QA",

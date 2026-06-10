@@ -17,7 +17,7 @@ const META = {
     codeUrl: "https://github.com/connorkoch0511/AWS-Resume-Website/tree/main/portfolio",
   },
   "rag-doc-qa": {
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase", "pgvector", "HuggingFace", "Groq", "Vercel AI SDK", "Playwright"],
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Clerk", "Neon", "pgvector", "HuggingFace", "Groq", "Vercel AI SDK", "Playwright"],
     liveUrl: "https://rag-doc-qa-five.vercel.app",
     repoUrl: "https://github.com/connorkoch0511/RAG-Doc-QA",
     codeUrl: "https://github.com/connorkoch0511/RAG-Doc-QA",
