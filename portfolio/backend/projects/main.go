@@ -57,8 +57,8 @@ func handler(ctx context.Context) (events.APIGatewayV2HTTPResponse, error) {
 		{
 			ID:          "job-application-tracker",
 			Name:        "Job Application Tracker",
-			Description: "AI-powered job tracker that scrapes remote listings daily, scores them against your resume using an LLM, and surfaces the roles most worth your time.",
-			Tags:        []string{"Next.js", "TypeScript", "Tailwind CSS", "Supabase", "PostgreSQL", "Groq", "Python", "GitHub Actions", "Playwright", "Vercel"},
+			Description: "AI-powered job tracker that scrapes remote listings daily via GitHub Actions, scores each one 0–100 against your résumé with an LLM across 7 dimensions, and tracks them through an application pipeline — built with Next.js, Clerk auth, and Neon PostgreSQL.",
+			Tags:        []string{"Next.js", "TypeScript", "Tailwind CSS", "Clerk", "Neon", "PostgreSQL", "Groq", "Python", "GitHub Actions", "Playwright", "Vercel"},
 			LiveUrl:     "https://job-application-tracker-beige-xi.vercel.app",
 			RepoUrl:     "https://github.com/connorkoch0511/Job-Application-Tracker",
 			CodeUrl:     "https://github.com/connorkoch0511/Job-Application-Tracker",

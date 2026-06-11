@@ -16,6 +16,12 @@ const META = {
     repoUrl: "https://github.com/connorkoch0511/AWS-Resume-Website",
     codeUrl: "https://github.com/connorkoch0511/AWS-Resume-Website/tree/main/portfolio",
   },
+  "job-application-tracker": {
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Clerk", "Neon", "PostgreSQL", "Groq", "Python", "GitHub Actions", "Playwright", "Vercel"],
+    liveUrl: "https://job-application-tracker-beige-xi.vercel.app",
+    repoUrl: "https://github.com/connorkoch0511/Job-Application-Tracker",
+    codeUrl: "https://github.com/connorkoch0511/Job-Application-Tracker",
+  },
   "rag-doc-qa": {
     tags: ["Next.js", "TypeScript", "Tailwind CSS", "Clerk", "Neon", "pgvector", "HuggingFace", "Groq", "Vercel AI SDK", "Playwright"],
     liveUrl: "https://rag-doc-qa-five.vercel.app",
