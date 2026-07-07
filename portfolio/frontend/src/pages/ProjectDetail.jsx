@@ -33,6 +33,12 @@ const META = {
     liveUrl: "https://rangeops-dashboard.vercel.app",
     repoUrl: "https://github.com/connorkoch0511/RangeOps",
     codeUrl: "https://github.com/connorkoch0511/RangeOps",
+    downloads: [
+      { label: "macOS (Apple Silicon)", url: "https://github.com/connorkoch0511/RangeOps/releases/latest/download/RangeOps-Console-osx-arm64.zip" },
+      { label: "macOS (Intel)", url: "https://github.com/connorkoch0511/RangeOps/releases/latest/download/RangeOps-Console-osx-x64.zip" },
+      { label: "Windows (x64)", url: "https://github.com/connorkoch0511/RangeOps/releases/latest/download/RangeOps-Console-win-x64.zip" },
+      { label: "Linux (x64)", url: "https://github.com/connorkoch0511/RangeOps/releases/latest/download/RangeOps-Console-linux-x64.zip" },
+    ],
   },
   "flightbench": {
     tags: ["C++17", "CMake", "PID Control", "Sensor Noise Models", "Fault Injection", "Next.js", "Recharts", "Playwright", "Vercel", "GitHub Actions"],
@@ -152,6 +158,23 @@ export default function ProjectDetail() {
           {apiTest.loading ? "Testing..." : "Try Projects API"}
         </button>
       </div>
+
+      {project.meta?.downloads?.length ? (
+        <div style={{ marginTop: "1.75rem" }}>
+          <h3 style={{ margin: "0 0 .6rem" }}>Download the desktop console</h3>
+          <div className="btn-row">
+            {project.meta.downloads.map((d) => (
+              <a key={d.label} className="btn btn-secondary" href={d.url} target="_blank" rel="noreferrer">
+                ⬇ {d.label}
+              </a>
+            ))}
+          </div>
+          <p className="projects-subtitle" style={{ marginTop: ".6rem", fontSize: "0.85rem" }}>
+            Self-contained builds (Avalonia / .NET 8). The console connects to the RangeOps
+            stack — see the repo README to run it. macOS builds are unsigned (right-click → Open).
+          </p>
+        </div>
+      ) : null}
 
       {apiTest.output && <pre className="code-block">{apiTest.output}</pre>}
     </div>
