@@ -28,6 +28,12 @@ const META = {
     repoUrl: "https://github.com/connorkoch0511/RAG-Doc-QA",
     codeUrl: "https://github.com/connorkoch0511/RAG-Doc-QA",
   },
+  "rangeops": {
+    tags: ["C", "C#", ".NET 8", "Avalonia", "EF Core", "Python", "Django", "PostgreSQL", "Neon", "Playwright", "GitHub Actions", "Vercel"],
+    liveUrl: "https://rangeops-dashboard.vercel.app",
+    repoUrl: "https://github.com/connorkoch0511/RangeOps",
+    codeUrl: "https://github.com/connorkoch0511/RangeOps",
+  },
   "flightbench": {
     tags: ["C++17", "CMake", "PID Control", "Sensor Noise Models", "Fault Injection", "Next.js", "Recharts", "Playwright", "Vercel", "GitHub Actions"],
     liveUrl: "https://flightbench-dashboard.vercel.app",

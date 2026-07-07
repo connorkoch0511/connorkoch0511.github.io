@@ -100,6 +100,15 @@ func handler(ctx context.Context) (events.APIGatewayV2HTTPResponse, error) {
 			CodeUrl:     "https://github.com/connorkoch0511/SquawkBoard",
 		},
 		{
+			ID:          "rangeops",
+			Name:        "RangeOps",
+			Description: "Flight-test range operations suite that automates mission scheduling and telemetry capture across a heterogeneous, integrated system — a C telemetry source, a C#/.NET (Avalonia + EF Core) desktop operator console, and a Python/Django web dashboard, all sharing one PostgreSQL schema via two ORMs. Detects and flags telemetry data-link dropouts end to end, with unit, integration, system, and Playwright tests in CI.",
+			Tags:        []string{"C", "C#", ".NET 8", "Avalonia", "EF Core", "Python", "Django", "PostgreSQL", "Neon", "Playwright", "GitHub Actions", "Vercel"},
+			LiveUrl:     "https://rangeops-dashboard.vercel.app",
+			RepoUrl:     "https://github.com/connorkoch0511/RangeOps",
+			CodeUrl:     "https://github.com/connorkoch0511/RangeOps",
+		},
+		{
 			ID:          "flightbench",
 			Name:        "FlightBench",
 			Description: "Hardware-in-the-Loop (HIL) flight simulation and test harness written in C++17, modeled after real SIL/HIL aerospace environments. Runs 11 automated test cases — including sensor fault injection — against a simulated flight computer with PID altitude hold, and ships a live telemetry dashboard.",
