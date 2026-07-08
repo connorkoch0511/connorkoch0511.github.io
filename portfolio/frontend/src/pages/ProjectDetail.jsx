@@ -170,8 +170,9 @@ export default function ProjectDetail() {
             ))}
           </div>
           <p className="projects-subtitle" style={{ marginTop: ".6rem", fontSize: "0.85rem" }}>
-            Self-contained builds (Avalonia / .NET 8). The console connects to the RangeOps
-            stack — see the repo README to run it. macOS builds are unsigned (right-click → Open).
+            Self-contained builds (Avalonia / .NET 8). Download and run — no setup; the
+            console connects to the same database as the live dashboard. macOS builds are
+            unsigned (right-click → Open).
           </p>
         </div>
       ) : null}
