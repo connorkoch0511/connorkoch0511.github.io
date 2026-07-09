@@ -1,0 +1,65 @@
+name: Deploy Projects API
+
+# Builds and deploys the projects-api Go Lambda (which serves the /projects
+# data, including each project's name/description) whenever the backend
+# projects code changes. Mirrors the OIDC pattern used by deploy-frontend.yml.
+#
+# Prerequisite (one-time): the gha-portfolio-deploy IAM role must be allowed to
+# update this function. Add an inline policy granting lambda:UpdateFunctionCode,
+# lambda:GetFunction, and lambda:GetFunctionConfiguration on
+# arn:aws:lambda:us-east-1:814835236587:function:projects-api. See the repo
+# README / PR notes for the exact policy JSON.
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "portfolio/backend/projects/**"
+      - "portfolio/backend/go.mod"
+      - "portfolio/backend/go.sum"
+  workflow_dispatch:
+
+permissions:
+  id-token: write   # required to request the OIDC token
+  contents: read    # required for actions/checkout
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: portfolio/backend/go.mod
+
+      - name: Build Lambda bootstrap (linux/arm64)
+        working-directory: portfolio/backend
+        env:
+          GOOS: linux
+          GOARCH: arm64
+          CGO_ENABLED: "0"
+        run: |
+          go build -tags lambda.norpc -o bootstrap ./projects
+          zip function.zip bootstrap
+
+      - name: Configure AWS credentials (OIDC)
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: arn:aws:iam::814835236587:role/gha-portfolio-deploy
+          aws-region: us-east-1
+
+      - name: Deploy to Lambda
+        working-directory: portfolio/backend
+        run: |
+          aws lambda update-function-code \
+            --function-name projects-api \
+            --zip-file fileb://function.zip \
+            --region us-east-1
+          aws lambda wait function-updated \
+            --function-name projects-api \
+            --region us-east-1
