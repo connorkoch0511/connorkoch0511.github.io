@@ -111,8 +111,8 @@ func handler(ctx context.Context) (events.APIGatewayV2HTTPResponse, error) {
 		{
 			ID:          "flightbench",
 			Name:        "FlightBench",
-			Description: "Hardware-in-the-Loop (HIL) flight simulation and test harness written in C++17, modeled after real SIL/HIL aerospace environments. Runs 11 automated test cases — including sensor fault injection — against a simulated flight computer with PID altitude hold, and ships a live telemetry dashboard.",
-			Tags:        []string{"C++17", "CMake", "PID Control", "Sensor Noise Models", "Fault Injection", "Next.js", "Recharts", "Playwright", "Vercel", "GitHub Actions"},
+			Description: "Hardware-in-the-Loop (HIL) flight-software verification framework in C++17, modeled after real SIL/HIL aerospace environments. Drives two plants through one requirement-based harness: a fixed-wing PID autopilot with sensor fault injection, and a 6DOF interceptor with proportional-navigation guidance. Adds a Simulink Embedded Coder-autocoded guidance module run interchangeably with native C++, a real-time fixed-rate executive that verifies the guidance/control frame meets its 200 Hz deadline, and a DO-178C-style requirements traceability matrix (22 requirements, 100% verified). Ships a live dashboard visualizing fault-injection telemetry and 6DOF intercept engagements.",
+			Tags:        []string{"C++17", "CMake", "6DOF Simulation", "Proportional Navigation", "Simulink Autocode", "Real-Time Systems", "Fault Injection", "Requirements Traceability", "Next.js", "Recharts", "Playwright", "Vercel", "GitHub Actions"},
 			LiveUrl:     "https://flightbench-dashboard.vercel.app",
 			RepoUrl:     "https://github.com/connorkoch0511/FlightBench",
 			CodeUrl:     "https://github.com/connorkoch0511/FlightBench",

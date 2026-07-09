@@ -35,7 +35,7 @@ const META = {
     codeUrl: "https://github.com/connorkoch0511/RangeOps",
   },
   "flightbench": {
-    tags: ["C++17", "CMake", "PID Control", "Sensor Noise Models", "Fault Injection", "Next.js", "Recharts", "Playwright", "Vercel", "GitHub Actions"],
+    tags: ["C++17", "CMake", "6DOF Simulation", "Proportional Navigation", "Simulink Autocode", "Real-Time Systems", "Fault Injection", "Requirements Traceability", "Next.js", "Recharts", "Playwright", "Vercel", "GitHub Actions"],
     liveUrl: "https://flightbench-dashboard.vercel.app",
     repoUrl: "https://github.com/connorkoch0511/FlightBench",
     codeUrl: "https://github.com/connorkoch0511/FlightBench",
