@@ -24,12 +24,12 @@ const APPS = [
     note:
       "Installers for the current release. macOS builds are unsigned: right-click → Open the first time.",
     repo: "https://github.com/connorkoch0511/LexRedact",
-    base: "https://github.com/connorkoch0511/LexRedact/releases/download/v0.1.19",
+    base: "https://github.com/connorkoch0511/LexRedact/releases/download/v0.1.27",
     downloads: [
-      { label: "macOS (Apple Silicon)", file: "LexRedact-0.1.19-arm64.dmg" },
-      { label: "macOS (Intel)", file: "LexRedact-0.1.19-x64.dmg" },
-      { label: "Windows (x64)", file: "LexRedact-0.1.19-Setup-x64.exe" },
-      { label: "Linux (AppImage)", file: "LexRedact-0.1.19.AppImage" },
+      { label: "macOS (Apple Silicon)", file: "LexRedact-0.1.27-arm64.dmg" },
+      { label: "macOS (Intel)", file: "LexRedact-0.1.27-x64.dmg" },
+      { label: "Windows (x64)", file: "LexRedact-0.1.27-Setup-x64.exe" },
+      { label: "Linux (AppImage)", file: "LexRedact-0.1.27.AppImage" },
     ],
   },
 ];
