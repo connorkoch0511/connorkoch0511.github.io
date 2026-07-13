@@ -1,6 +1,5 @@
 // Desktop apps available for download. RangeOps uses version-independent asset
-// names, so its links always resolve to the latest release; LexRedact's
-// electron-builder assets are versioned, so those are pinned to the current tag.
+// names, so its links always resolve to the latest release.
 const APPS = [
   {
     name: "RangeOps Operator Console",
@@ -15,21 +14,6 @@ const APPS = [
       { label: "macOS (Intel)", file: "RangeOps-Console-osx-x64.zip" },
       { label: "Windows (x64)", file: "RangeOps-Console-win-x64.zip" },
       { label: "Linux (x64)", file: "RangeOps-Console-linux-x64.zip" },
-    ],
-  },
-  {
-    name: "LexRedact Desktop",
-    blurb:
-      "AI-powered legal document redaction that runs fully on-device — no document ever leaves your machine. Built with Electron.",
-    note:
-      "Installers for the current release. macOS builds are unsigned: right-click → Open the first time.",
-    repo: "https://github.com/connorkoch0511/LexRedact",
-    base: "https://github.com/connorkoch0511/LexRedact/releases/download/v0.1.27",
-    downloads: [
-      { label: "macOS (Apple Silicon)", file: "LexRedact-0.1.27-arm64.dmg" },
-      { label: "macOS (Intel)", file: "LexRedact-0.1.27-x64.dmg" },
-      { label: "Windows (x64)", file: "LexRedact-0.1.27-Setup-x64.exe" },
-      { label: "Linux (AppImage)", file: "LexRedact-0.1.27.AppImage" },
     ],
   },
 ];
