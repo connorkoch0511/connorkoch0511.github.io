@@ -41,8 +41,9 @@ func handler(ctx context.Context) (events.APIGatewayV2HTTPResponse, error) {
 		{
 			ID:          "marketsync",
 			Name:        "MarketSync",
-			Description: "E-commerce ETL pipeline that syncs orders from Amazon/Walmart/Target APIs into PostgreSQL, with reconciliation, Slack alerting, and scheduled jobs.",
-			Tags:        []string{"Python", "FastAPI", "PostgreSQL", "SQLAlchemy", "Docker", "Pandas", "APScheduler"},
+			Description: "E-commerce ETL platform that syncs orders from simulated Amazon/Walmart/Target APIs into PostgreSQL with reconciliation and retry/backoff — fronted by an ops dashboard you can drive yourself: trigger a sync, run reconciliation, and resolve discrepancies live.",
+			Tags:        []string{"Python", "FastAPI", "PostgreSQL", "Neon", "SQLAlchemy", "Pandas", "APScheduler", "Docker", "Vercel"},
+			LiveUrl:     "https://marketsync-henna.vercel.app",
 			RepoUrl:     "https://github.com/connorkoch0511/marketsync",
 			CodeUrl:     "https://github.com/connorkoch0511/marketsync",
 		},

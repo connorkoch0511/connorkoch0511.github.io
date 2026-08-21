@@ -52,6 +52,12 @@ const META = {
     repoUrl: "https://github.com/connorkoch0511/EdgeStat",
     codeUrl: "https://github.com/connorkoch0511/EdgeStat",
   },
+  "marketsync": {
+    tags: ["Python", "FastAPI", "PostgreSQL", "Neon", "SQLAlchemy", "Pandas", "APScheduler", "Docker", "Vercel"],
+    liveUrl: "https://marketsync-henna.vercel.app",
+    repoUrl: "https://github.com/connorkoch0511/marketsync",
+    codeUrl: "https://github.com/connorkoch0511/marketsync",
+  },
 };
 
 export default function Projects() {
